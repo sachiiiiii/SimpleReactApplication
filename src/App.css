@@ -40,3 +40,8 @@
 .read-the-docs {
   color: #888;
 }
+
+span {
+  font-weight: bolder;
+  font-family: 'Courier New', Courier, monospace;
+}

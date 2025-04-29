@@ -9,10 +9,10 @@ function Content(props) {
     <>
       <h2 style={{ color: props.color }}>{props.text}</h2>
       <ul style={{fontSize: 20}}>
-        <li>Use npm create vite@latest to make a pre-configured React application.</li>
+        <li>Use <span>npm create vite@latest</span> to make a pre-configured React application.</li>
         <li>Create React components.</li>
         <li>Render React components within an application.</li>
-        <li>Pass <span style={{fontFamily: "monospace"}}>props</span> to React components to modify their behavior.</li>
+        <li>Pass <span>props</span> to React components to modify their behavior.</li>
       </ul>
     </>
 
