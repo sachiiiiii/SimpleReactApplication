@@ -29,7 +29,7 @@ function App() {
       {/* Add components to the App function */}
       <Header />
       {/* Add props to Content component */}
-      <Content color="red" text="By completing this lab, I demonstrated my ability to " />
+      <Content color="turquoise" text="By completing this lab, I demonstrated my ability to:" />
       <Footer />
     </>
   )
