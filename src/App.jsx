@@ -1,13 +1,16 @@
-// import { useState } from 'react'
-// import './App.css'
-
 // Create a few simple components to display some content.
 function Header() {
-  return (<h1>Simple React Application</h1>);
+  return (<h1>A Simple React Application (My 2nd one!)</h1>);
 }
 
-function Content() {
-  return (<h2>This is my second React Application!</h2>);
+function Content(props) {
+  // Add inline styling
+  return (
+    <>
+      <h2 style={{ color: props.color }}>{props.text}</h2>
+    </>
+
+  );
 }
 
 function Footer() {
@@ -15,13 +18,13 @@ function Footer() {
 }
 
 function App() {
-  // const [count, setCount] = useState(0)
-
   return (
     <>
       {/* Add components to the App function */}
       <Header />
-      <Content />
+      {/* Add props to Content component */}
+      <Content color="red" text="By completing this lab, I demonstrated my ability to " />
+      <Content color="green" text="I think I've got it!" />
       <Footer />
     </>
   )
