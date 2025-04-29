@@ -1,3 +1,6 @@
+This simple React application was created using a pre-configured React application made using npm create vite@latest.
+[Project documentation](https://ps-react-curriculum.herokuapp.com/320/2/lab/)
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
