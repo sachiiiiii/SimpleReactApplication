@@ -8,6 +8,12 @@ function Content(props) {
   return (
     <>
       <h2 style={{ color: props.color }}>{props.text}</h2>
+      <ul style={{fontSize: 20}}>
+        <li>Use npm create vite@latest to make a pre-configured React application.</li>
+        <li>Create React components.</li>
+        <li>Render React components within an application.</li>
+        <li>Pass <span style={{fontFamily: "monospace"}}>props</span> to React components to modify their behavior.</li>
+      </ul>
     </>
 
   );
@@ -24,7 +30,6 @@ function App() {
       <Header />
       {/* Add props to Content component */}
       <Content color="red" text="By completing this lab, I demonstrated my ability to " />
-      <Content color="green" text="I think I've got it!" />
       <Footer />
     </>
   )
