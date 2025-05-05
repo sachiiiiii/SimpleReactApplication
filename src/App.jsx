@@ -10,7 +10,7 @@ function Content(props) {
     <>
       {/* Add props to Content component */}
       <h2 style={{ color: props.color }}>{props.text}</h2>
-      {/* Add Objectives component with props to Content component */}
+      {/* Add Objectives component to Content component */}
       <Objectives fontSize="20" listStyle="url('https://img.icons8.com/?size=20&id=123603&format=png&color=000000" />
     </>
 
